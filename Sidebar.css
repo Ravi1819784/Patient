@@ -1,0 +1,61 @@
+.left-health {
+  width: 300px;
+  background-color: rgb(153, 189, 231);
+  margin-top: 50px;
+  min-height: 100vh;
+}
+
+.left-health h2 {
+  margin-top: 50px;
+  font-size: 1.1rem;
+  position: relative;
+  left: 50px;
+  letter-spacing: 1px;
+  color: black;
+  font-weight: 600;
+}
+
+.lines {
+  height: 2px;
+  width: 180px;
+  background-color: black;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+.opd {
+  margin-top: 30px;
+  font-size: 0.7rem;
+  margin-left: 50px;
+}
+.list {
+  margin-left: 20px;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 600;
+  color: rgb(20, 20, 20);
+}
+
+.listall {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+
+@media (max-width: 768px) {
+  .main-health-care {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-health {
+    width: 100%;
+    min-height: auto;
+
+  }
+}

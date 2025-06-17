@@ -1,0 +1,72 @@
+
+
+.main-opdList{
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+}
+
+.right-list-nav{
+    margin-inline: 20px;
+    display: flex;
+
+    justify-content: space-between;
+    margin-top: 25px;
+    height: 120px;
+    align-items: center;
+  
+}
+.filter{
+    background-color: rgb(192, 202, 224);
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+padding-top: 10px;
+    gap: 5px;
+}
+.filter h2{
+    font-size: 1rem;
+    color: rgb(26, 25, 25);
+    letter-spacing: 0.5px;
+}
+.search-listbar{
+    display: flex;
+    gap: 10px;
+   
+}
+.search-listbar input{
+        width: 300px;
+    height: 30px;
+        background-color: rgb(186, 202, 238);
+        border-radius: 50px;
+        outline: none;
+        border: 1px solid black;    
+}
+.search-btn{
+    width: 80px;
+    height: 30px;
+        background-color: rgb(186, 202, 238);
+        border-radius: 50px;
+          border: 1px solid black;
+      display: flex;
+      align-items: center;
+}
+.list-form{
+    width: 100%;
+    min-height: 100vh;
+     background-color: rgb(198, 215, 241); 
+}
+.right-list{
+    width: 100%;
+}
+.btn-view{
+    border: none
+    ;
+    background-color: rgb(94, 143, 235);
+    border-radius: 7px;
+    padding: 6px 12px;
+    color: white;
+}
+

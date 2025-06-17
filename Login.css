@@ -1,0 +1,53 @@
+.main-login{
+    width: 100%;
+    min-height: 100vh;
+ 
+}
+.main-form{
+    width: 100%;
+display: flex;
+justify-content: center;
+
+}
+.login-form{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(200, 207, 216);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.login-form h3{
+    margin-top: 30px;
+    letter-spacing: 1px;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.input input{
+        border: none;
+    outline: none;
+    height: 32px;
+    width: 270px;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+.btn{
+       border: none;
+    outline: none;
+    height: 32px;
+    width: 270px;
+    border-radius: 12px;
+    background-color: rgb(134, 223, 230);
+    letter-spacing: 1px;
+    font-size: 0.96rem;
+}
+.input label{
+    margin-left: 10px;
+}

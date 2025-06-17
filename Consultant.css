@@ -1,0 +1,86 @@
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #cce0ff;
+  padding: 20px;
+}
+.main-consultant{
+    display: flex;
+}
+.sidebar h3 {
+  margin-bottom: 20px;
+}
+
+.menu-section p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.menu-section ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.menu-section ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 30px;
+  background-color: white;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.dashboard-main h2 {
+  margin-bottom: 25px;
+}
+
+.summary-section {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.summary-card {
+  background-color: #f0f0f0;
+  padding: 15px 25px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.patient-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patient-table th,
+.patient-table td {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.patient-table tbody tr:nth-child(even) {
+  background-color: #d9f2e6;
+}
+
+.doctor-status-btn{
+    text-decoration: none;
+    margin-top: 40px;
+}
+.doctor-status-btn button{
+    background-color: #595a5a;
+    color: white;
+}
+.btn-status{
+    display: flex;
+    justify-content: center;
+}
